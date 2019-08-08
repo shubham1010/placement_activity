@@ -1,0 +1,10 @@
+This file should be formatted as below:
+Use space as delimiter.
+First Column should be the name of process.
+Second Column should be the burst time.
+Third Column should be the arrival time.
+
+p1 5 1
+p2 6 0
+p3 2 2
+p4 4 0
