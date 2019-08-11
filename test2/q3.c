@@ -35,9 +35,6 @@ int main(void){
 	deleteQueue(&Q);
 }
 
-
-
-
 void acceptInput(LRTF *arr,int n){
 	for(int i=0 ; i<n ; i++){
 		printf("\nEnter the process name: ");
@@ -139,7 +136,7 @@ void display(LRTF *arr,int n){
 		avgtat+=arr[i].tat;
 	}
 
-	printf("\n\n\t***Average Waiting Time= %f***",avgwt);
-	printf("\n\t***Average Turn Around Time= %f***",avgtat);
+	printf("\n\n\t***Average Waiting Time= %f***",avgwt/n);
+	printf("\n\t***Average Turn Around Time= %f***",avgtat/n);
 }
 
