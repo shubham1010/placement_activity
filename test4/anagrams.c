@@ -28,8 +28,8 @@ int main(void){
 	str1=getLower(str1);
 	str2=getLower(str2);
 
-	CharCount *records1=(CharCount *)malloc(sizeof(CharCount)*SIZE);
-	CharCount *records2=(CharCount *)malloc(sizeof(CharCount)*SIZE);
+	CharCount *records1=(CharCount *)malloc(sizeof(CharCount)*26);
+	CharCount *records2=(CharCount *)malloc(sizeof(CharCount)*26);
 
 	getRecords(records1,str1);
 	getRecords(records2,str2);
