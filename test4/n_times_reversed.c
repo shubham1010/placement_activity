@@ -87,7 +87,7 @@ char *reverse(char *string){
 
 void display(AllWords *words){
 	if(words->totlines>1){ // if there are more than one lines (\n)
-		for(int k=0 ; k<(words->n)+1 ; k++){
+		for(int k=0 ; k<(words->n) ; k++){
 			for(int i=words->totwords-1 ; i>=0 ; i--){
 			//	for(int j=0 ; j<words->n ; j++)
 					printf("%s ",words[i].word);
